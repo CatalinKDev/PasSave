@@ -58,7 +58,7 @@ def generate_password(length=12):
 
 # Functia pentru verificarea puterii parolei folosind ChatGPT API
 def check_password_strength(password):
-    prompt = f"Check the strength of this password: {password}. If it's weak, provide suggestions to make it stronger."
+    prompt = f"Check the strength of this password: {password}. If it's weak, provide suggestions to make it stronger. Also give me a rank from 1 to 10 how strong is the password"
 
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
