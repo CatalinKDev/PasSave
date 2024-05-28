@@ -43,7 +43,7 @@ pip install python-dotenv
 ## Running the Application
 ### Run the Streamlit application with:
 ```bash
-streamlit run app.py
+python -m streamlit run PasSave.py
 ```
 ## Usage
 ### Generate Password: Enter a name and platform, then select the desired password length and click "Generate Password".
@@ -60,9 +60,7 @@ password-manager/
 └── .env                   # Environment variables file (add your OpenAI API key here)
 ```
 ### Requirements
-### Streamlit
-### OpenAI
-### SQLite3
-### Python-dotenv
-### Contributing
-### Contributions are welcome! Please create an issue or open a pull request with your changes.
+- Streamlit
+- OpenAI
+- SQLite3
+- Python-dotenv
